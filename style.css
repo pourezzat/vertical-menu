@@ -40,3 +40,6 @@ body {
     background-color: #ffbf00;
     stroke: #000;
 }
+.active{
+    background-color: #ffbf00;
+}
