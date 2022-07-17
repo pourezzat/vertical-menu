@@ -5,7 +5,6 @@
     border: 0;
     box-sizing: border-box;
 }
-
 body {
     direction: rtl;
     font-family: lalezar;
@@ -15,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.menu{
+.menu {
     background-color: #202020;
     width: 70px;
     height: 450px;
@@ -25,7 +24,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
-.menu-item{
+.menu-item {
     cursor: pointer;
     width: 60px;
     height: 60px;
@@ -36,10 +35,10 @@ body {
     align-items: center;
     stroke: #fff;
 }
-.menu-item:hover{
+.menu-item:hover {
+    background-color: #ffbf00;
+}
+.active {
     background-color: #ffbf00;
     stroke: #000;
-}
-.active{
-    background-color: #ffbf00;
 }
